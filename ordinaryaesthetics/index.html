@@ -1,0 +1,73 @@
+<html>
+    
+<style>
+     body {
+  background-image: url("YEETONTHEFEET.jpg");
+}
+    
+   ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+       
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+} 
+    
+p2 {
+  text-align: left;
+}
+    
+p2 {
+  margin: 25px 1px 1px 100px;
+}
+     
+</style>
+
+<body>
+    
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+    
+    <h1>home</h1>
+    
+</body>
+
+    <p2>WELCOME TO OUR PAGE!</p2>
+    <p2>Here you can find awsome scruchies in many differint coulers and forms.
+    the prices are very afordable and they are really pretty.</p2>
+    
+     <img id='myimg' src='scrunchies.jpg'> <!-- or marval.jpg -->
+    
+    <button onclick="switchIt('scrunchies.jpg')">Srunchies XD</button>
+<button onclick="switchIt('OTHERSCRUNCHIESxd.jpg')">Other Srunchies XD</button>
+    
+    <script>
+ function switchIt(image) {
+ var imgdoc = document.getElementById('myimg')
+ imgdoc.src = image; <!-- set <img> src attribute -->
+ }
+</script>
+        

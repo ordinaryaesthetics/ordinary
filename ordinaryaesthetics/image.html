@@ -1,0 +1,14 @@
+<html>
+ <img id='myimg' src='scrunchies.jpg'> <!-- or marval.jpg -->
+    
+    <button onclick="switchIt('scrunchies.jpg')">Srunchies XD</button>
+<button onclick="switchIt('OTHERSCRUNCHIESxd.jpg')">Other Srunchies XD</button>
+    
+    <script>
+ function switchIt(image) {
+ var imgdoc = document.getElementById('myimg')
+ imgdoc.src = image; <!-- set <img> src attribute -->
+ }
+</script>
+    
+</html>
